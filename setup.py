@@ -1,4 +1,4 @@
-#!/usr/bin/python3.8
+#!/usr/bin/python3.9
 # -*- coding: utf-8 -*-
 
 import setuptools
@@ -23,6 +23,5 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     install_requires=["django==3.1.7"],
-    python_requires='>=3.8'
+    python_requires='>=3.9'
 )
-
