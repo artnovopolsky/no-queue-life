@@ -10,14 +10,14 @@ with open("requirements.txt", "r", encoding="utf-8") as fh:
     reqs = fh.read().split('\n')[:-1]
 
 setuptools.setup(
-    name="no_queue_life",
+    name="nql_bot",
     version="1.0.0",
     author="Slava Kostrov",
     author_email="slavkotrov@gmail.com",
-    description="Telegram bot for predicting gender and age from photo",
+    description="Telegram bot nql project",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://gitlab.com/slavkostrov/X5-Bot",
+    url="",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
