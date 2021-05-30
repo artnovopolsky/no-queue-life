@@ -1,6 +1,6 @@
 FROM python:3.8
 
-ENV TELEGRAM_API_TOKEN=""
+ENV TELEGRAM_API_TOKEN="${TELEGRAM_API_TOKEN}"
 
 COPY nql_bot/requirements.txt /app/bot_requirements.txt
 
