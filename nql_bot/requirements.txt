@@ -1,0 +1,10 @@
+numpy==1.17.3
+flake8==3.8.4
+pylint==2.6.0
+mypy==0.790
+pytest==6.2.1
+pytest-cov==2.11.0
+tqdm==4.58.0
+
+geopy~=2.1.0
+setuptools~=57.0.0
