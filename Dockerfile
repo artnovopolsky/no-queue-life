@@ -1,12 +1,16 @@
 FROM python:3.8
 
-COPY nql_bot/requirements.txt nql_site/requirements.txt 
+ENV TELEGRAM_API_TOKEN="token"
 
-WORKDIR /nql  
+COPY nql_bot/requirements.txt /app/bot_requirements.txt
+COPY nql_site/requirements.txt /app/site_requirements.txt
 
-RUN pip install -r /nql_bot/requirements.txt
+WORKDIR /app
 
-COPY . /nql
+RUN pip install -r /app/site_requirements.txt
+RUN pip install -r /app/bot_requirements.txt
 
-CMD python /nql/nql_bot/examples/run.py
+COPY . /app
+
+CMD python /app/nql_bot/examples/run.py
 
