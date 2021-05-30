@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<!--[if lte IE 8]>              <html class="ie8 no-js" lang="en">     <![endif]-->
+<!--[if IE 9]>					<html class="ie9 no-js" lang="en">     <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html class="not-ie no-js" lang="en">  <!--<![endif]-->
+<head>
+	<link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz|Open+Sans:400,600,700|Oswald|Electrolize' rel='stylesheet' type='text/css'>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+	<title>Car Dealer | All Listings</title>
+	
+	<meta name="description" content="">
+	<meta name="author" content="">
+	
+	<link rel="shortcut" href="images/favicon.html" />
+	<link rel="stylesheet" href="css/style.css" media="screen" />
+	<link rel="stylesheet" href="css/skeleton.css" media="screen" />
+	<link rel="stylesheet" href="fancybox/jquery.fancybox.css" media="screen" />
+
+	<!-- HTML5 Shiv + detect touch events -->
+	<script type="text/javascript" src="js/modernizr.custom.js"></script>
+</head>
+<body class="menu-1 h-style-1 text-1">
+
+<div class="wrap">
+	
+	<!-- - - - - - - - - - - - - - Header - - - - - - - - - - - - - - - - -->	
+	
+	<header id="header" class="clearfix">
+		
+		<a href="index.html" id="logo"><img src="images/logo.png" alt="Car Dealer"></a>
+		
+		<div class="widget-container widget_search">
+			
+			<span class="call"><span>+1 234</span> 567-8901</span><br />
+			
+			<span class="adds">12 Street, Los Angeles, CA, 94101</span>
+
+			<form action="#" id="searchform" method="get">
+
+				<p>
+					<input type="text" id="s" placeholder="Search">
+					<button type="submit" id="searchsubmit"></button>
+				</p>
+
+			</form><!--/ #searchform-->
+
+		</div><!--/ .widget-container-->		
+		
+		<nav id="navigation" class="navigation">
+			
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li class="current-menu-item"><a href="all-listings.html">Browse By</a>
+					<ul>
+						<li class="current-menu-item"><a href="all-listings.html">All Listings</a></li>
+						<li><a href="#">Manufacturer</a>
+							<ul>
+								<li><a href="one-products.html">Aston Martin</a></li>
+								<li><a href="one-products.html">Audi</a></li>
+								<li><a href="one-products.html">BMW</a></li>
+								<li><a href="one-products.html">Chevrolet</a></li>
+								<li><a href="one-products.html">Mercedes Benz</a></li>
+								<li><a href="one-products.html">Ferrari</a></li>
+								<li><a href="one-products.html">Lexus</a></li>
+								<li><a href="one-products.html">Porsche</a></li>
+								<li><a href="one-products.html">Toyota</a></li>
+							</ul>
+						</li>
+						<li><a href="#">Body Type</a></li>
+						<li><a href="#">Engine Size</a></li>
+						<li><a href="#">Mileage</a></li>
+						<li><a href="#">Model Year</a></li>
+						<li><a href="#">Price Range</a></li>
+						<li><a href="#">Transmission</a></li>
+					</ul>
+				</li>
+				<li><a href="blog.html">Blog</a>
+					<ul>
+						<li><a href="blog.html">Blog</a></li>
+						<li><a href="blog-single.html">Blog Single</a></li>
+						<li><a href="dealer-single.html">Dealer Single</a></li>
+					</ul>
+				</li>
+				<li><a href="alternative-blog.html">News</a></li>
+				<li><a href="sales-reps.html">Sales Reps</a></li>
+				<li><a href="compare-listings.html">Pages</a>
+					<ul>
+						<li><a href="compare-listings.html">Compare Listings</a></li>
+						<li><a href="404.html">404 Page</a></li>
+						<li><a href="image-and-floats.html">Images and Floats</a></li>
+						<li><a href="pricing-table.html">Pricing Tables</a></li>
+						<li><a href="typography.html">Typography</a></li>
+						<li><a href="toggle.html">FAQ Toggle</a></li>
+						<li><a href="columns.html">Column Layout</a></li>
+						<li><a href="login.html">Registration</a>
+							<ul>
+								<li><a href="login.html">Login</a></li>
+								<li><a href="user-profile.html">User Profile</a></li>
+							</ul>							
+						</li>
+						<li><a href="watchlist-page.html">Personal Cabinet</a>
+							<ul>
+								<li><a href="watchlist-page.html">Watch List</a></li>
+								<li><a href="my-vechicles.html">My Vechicles</a></li>
+								<li><a href="vechicle-step-1.html">Step 1</a></li>
+								<li><a href="vechicle-step-2.html">Step 2</a></li>
+								<li><a href="vechicle-step-3.html">Step 3</a></li>
+								<li><a href="vechicle-step-4.html">Step 4</a></li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li><a href="contact.html">Contacts</a></li>
+			</ul>
+			
+		</nav><!--/ #navigation-->
+		
+	</header><!--/ #header-->
+	
+	<!-- - - - - - - - - - - - - - end Header - - - - - - - - - - - - - - - - -->	
+	
+	
+	<div class="main">
+
+		<!-- - - - - - - - - - - - - - - Container - - - - - - - - - - - - - - - - -->	
+
+		<section class="container sbl clearfix">
+
+			<!-- - - - - - - - - - - - - - - Content - - - - - - - - - - - - - - - - -->		
+
+			<section id="content" class="two-thirds column">
+				
+				<div class="page-header clearfix">
+
+					<h3 class="section-title">Recent Automobiles</h3>
+
+					<div class="layout-switcher">
+						<a class="layout-grid" href="#item-grid">Grid View</a>
+						<a class="layout-list" href="#item-list">List View</a>
+					</div><!--/ .layout-switcher-->
+
+				</div><!--/ .page-header-->
+
+				<section id="change-items" class="item-grid">
+
+					<article>
+						
+						<a href="one-products.html" class="single-image picture video">
+							<img src="images/temp/thumb-1.jpg" alt="">
+						</a>
+
+						<div class="detailed">
+							
+							<h6 class="title-item">
+								<a href="one-products.html">2009 Aston Martin DB9</a>
+							</h6>
+							
+							<span class="price">$8.966</span>
+							
+							<div class="clear"></div>
+							
+							<ul class="list-entry">
+								<li><b class="label">Engine:</b><span>1.4i TS 5Dr</span></li>
+								<li><b class="label">Mileage:</b><span>75000</span></li>	
+								<li><b class="label">Year:</b><span>2009</span></li>	
+								<li><b class="label">Location:</b><span>New Jersey/ Newark</span></li>	
+							</ul><!--/ .list-entry-->
+
+							<label class="compare"><input type="checkbox" />Compare</label>
+							<a href="one-products.html" class="button orange">Details</a>
+							
+						</div><!--/ .detailed-->
+						
+					</article>
+
+					<article>
+						
+						<a href="one-products.html" class="single-image picture">
+							<img src="images/temp/thumb-2.jpg" alt="">
+						</a>
+
+						<div class="detailed">
+							
+							<h6 class="title-item">
+								<a href="one-products.html">2009 Aston Martin DB9</a>
+							</h6>
+							
+							<span class="price">$8.966</span>
+							
+							<div class="clear"></div>
+							
+							<ul class="list-entry">
+								<li><b class="label">Engine:</b><span>1.4i TS 5Dr</span></li>
+								<li><b class="label">Mileage:</b><span>75000</span></li>	
+								<li><b class="label">Year:</b><span>2009</span></li>	
+								<li><b class="label">Location:</b><span>New Jersey/ Newark</span></li>	
+							</ul><!--/ .list-entry-->
+
+							<label class="compare"><input type="checkbox" />Compare</label>
+							<a href="one-products.html" class="button orange">Details</a>
+							
+						</div><!--/ .detailed-->
+						
+					</article>
+
+					<article>
+						
+						<a href="one-products.html" class="single-image picture video">
+							<img src="images/temp/thumb-3.jpg" alt="">
+						</a>
+
+						<div class="detailed">
+							
+							<h6 class="title-item">
+								<a href="one-products.html">2009 Aston Martin DB9</a>
+							</h6>
+							
+							<span class="price">$8.966</span>
+							
+							<div class="clear"></div>
+							
+							<ul class="list-entry">
+								<li><b class="label">Engine:</b><span>1.4i TS 5Dr</span></li>
+								<li><b class="label">Mileage:</b><span>75000</span></li>	
+								<li><b class="label">Year:</b><span>2009</span></li>	
+								<li><b class="label">Location:</b><span>New Jersey/ Newark</span></li>	
+							</ul><!--/ .list-entry-->
+
+							<label class="compare"><input type="checkbox" />Compare</label>
+							<a href="one-products.html" class="button orange">Details</a>
+							
+						</div><!--/ .detailed-->
+						
+					</article>
+
+					<article>
+						
+						<a href="one-products.html" class="single-image picture">
+							<img src="images/temp/thumb-3.jpg" alt="">
+						</a>
+
+						<div class="detailed">
+							
+							<h6 class="title-item">
+								<a href="one-products.html">2009 Aston Martin DB9</a>
+							</h6>
+							
+							<span class="price">$8.966</span>
+							
+							<div class="clear"></div>
+							
+							<ul class="list-entry">
+								<li><b class="label">Engine:</b><span>1.4i TS 5Dr</span></li>
+								<li><b class="label">Mileage:</b><span>75000</span></li>	
+								<li><b class="label">Year:</b><span>2009</span></li>	
+								<li><b class="label">Location:</b><span>New Jersey/ Newark</span></li>	
+							</ul><!--/ .list-entry-->
+
+							<label class="compare"><input type="checkbox" />Compare</label>
+							<a href="one-products.html" class="button orange">Details</a>
+							
+						</div><!--/ .detailed-->
+						
+					</article>
+
+					<article>
+						
+						<a href="one-products.html" class="single-image picture video">
+							<img src="images/temp/no-thumb.jpg" alt="">
+						</a>
+
+						<div class="detailed">
+							
+							<h6 class="title-item">
+								<a href="one-products.html">2009 Aston Martin DB9</a>
+							</h6>
+							
+							<span class="price">$8.966</span>
+							
+							<div class="clear"></div>
+							
+							<ul class="list-entry">
+								<li><b class="label">Engine:</b><span>1.4i TS 5Dr</span></li>
+								<li><b class="label">Mileage:</b><span>75000</span></li>	
+								<li><b class="label">Year:</b><span>2009</span></li>	
+								<li><b class="label">Location:</b><span>New Jersey/ Newark</span></li>	
+							</ul><!--/ .list-entry-->
+
+							<label class="compare"><input type="checkbox" />Compare</label>
+							<a href="one-products.html" class="button orange">Details</a>
+							
+						</div><!--/ .detailed-->
+						
+					</article>
+
+					<article>
+						
+						<a href="one-products.html" class="single-image picture">
+							<img src="images/temp/thumb-4.jpg" alt="">
+						</a>
+
+						<div class="detailed">
+							
+							<h6 class="title-item">
+								<a href="one-products.html">2009 Aston Martin DB9</a>
+							</h6>
+							
+							<span class="price">$8.966</span>
+							
+							<div class="clear"></div>
+							
+							<ul class="list-entry">
+								<li><b class="label">Engine:</b><span>1.4i TS 5Dr</span></li>
+								<li><b class="label">Mileage:</b><span>75000</span></li>	
+								<li><b class="label">Year:</b><span>2009</span></li>	
+								<li><b class="label">Location:</b><span>New Jersey/ Newark</span></li>	
+							</ul><!--/ .list-entry-->
+
+							<label class="compare"><input type="checkbox" />Compare</label>
+							<a href="one-products.html" class="button orange">Details</a>
+							
+						</div><!--/ .detailed-->
+						
+					</article>
+
+					<article>
+						
+						<a href="one-products.html" class="single-image picture video">
+							<img src="images/temp/no-thumb.jpg" alt="">
+						</a>
+
+						<div class="detailed">
+							
+							<h6 class="title-item">
+								<a href="one-products.html">2009 Aston Martin DB9</a>
+							</h6>
+							
+							<span class="price">$8.966</span>
+							
+							<div class="clear"></div>
+							
+							<ul class="list-entry">
+								<li><b class="label">Engine:</b><span>1.4i TS 5Dr</span></li>
+								<li><b class="label">Mileage:</b><span>75000</span></li>	
+								<li><b class="label">Year:</b><span>2009</span></li>	
+								<li><b class="label">Location:</b><span>New Jersey/ Newark</span></li>	
+							</ul><!--/ .list-entry-->
+
+							<label class="compare"><input type="checkbox" />Compare</label>
+							<a href="one-products.html" class="button orange">Details</a>
+							
+						</div><!--/ .detailed-->
+						
+					</article>
+
+					<article>
+						
+						<a href="one-products.html" class="single-image picture">
+							<img src="images/temp/thumb-5.jpg" alt="">
+						</a>
+
+						<div class="detailed">
+							
+							<h6 class="title-item">
+								<a href="one-products.html">2009 Aston Martin DB9</a>
+							</h6>
+							
+							<span class="price">$8.966</span>
+							
+							<div class="clear"></div>
+							
+							<ul class="list-entry">
+								<li><b class="label">Engine:</b><span>1.4i TS 5Dr</span></li>
+								<li><b class="label">Mileage:</b><span>75000</span></li>	
+								<li><b class="label">Year:</b><span>2009</span></li>	
+								<li><b class="label">Location:</b><span>New Jersey/ Newark</span></li>	
+							</ul><!--/ .list-entry-->
+
+							<label class="compare"><input type="checkbox" />Compare</label>
+							<a href="one-products.html" class="button orange">Details</a>
+							
+						</div><!--/ .detailed-->
+						
+					</article>
+
+					<article>
+						
+						<a href="one-products.html" class="single-image picture video">
+							<img src="images/temp/thumb-4.jpg" alt="">
+						</a>
+
+						<div class="detailed">
+							
+							<h6 class="title-item">
+								<a href="one-products.html">2009 Aston Martin DB9</a>
+							</h6>
+							
+							<span class="price">$8.966</span>
+							
+							<div class="clear"></div>
+							
+							<ul class="list-entry">
+								<li><b class="label">Engine:</b><span>1.4i TS 5Dr</span></li>
+								<li><b class="label">Mileage:</b><span>75000</span></li>	
+								<li><b class="label">Year:</b><span>2009</span></li>	
+								<li><b class="label">Location:</b><span>New Jersey/ Newark</span></li>	
+							</ul><!--/ .list-entry-->
+
+							<label class="compare"><input type="checkbox" />Compare</label>
+							<a href="one-products.html" class="button orange">Details</a>
+							
+						</div><!--/ .detailed-->
+						
+					</article>
+
+				</section><!--/ #change-items-->				
+
+				<div class="wp-pagenavi clearfix">
+					
+					<span class="pages">Page 1 of 2</span>
+					<a class="prevpostslink" href="#"></a>
+					<span class="current">1</span>
+					<a class="page" href="#">2</a>
+					<a class="nextpostslink" href="#"></a>
+					
+				</div><!--/ .wp-pagenavi-->
+
+			</section><!--/ #content-->
+
+			<!-- - - - - - - - - - - - - - end Content - - - - - - - - - - - - - - - - -->	
+
+
+			<!-- - - - - - - - - - - - - - - Sidebar - - - - - - - - - - - - - - - - -->	
+
+			<aside id="sidebar" class="one-third column">
+				
+				<div class="widget-container widget_custom_search">
+					
+					<div class="search-heading">
+							
+						<h3 class="widget-title">Quick Search</h3>
+						
+					</div><!--/ .search-heading-->
+					
+					<div class="search-entry clearfix">
+
+						<form action="http://html.webtemplatemasters.com/" class="form-panel">
+
+							<fieldset>
+								<label>Make:</label>
+								<select>
+									<option value="0">Any</option>
+									<option value="1">Lorem</option>
+									<option value="2">Ipsum</option>
+								</select>
+							</fieldset>
+
+							<fieldset class="not-active">
+								<label>Model:</label>
+								<select>
+									<option value="0">Any</option>
+									<option value="1">Lorem</option>
+									<option value="2">Ipsum</option>
+								</select>
+							</fieldset>
+
+							<fieldset>
+								<label>Price <span>min</span>:</label>
+								<select>
+									<option value="0">No max</option>
+									<option value="1">Lorem</option>
+									<option value="2">Ipsum</option>
+								</select>
+							</fieldset>
+
+							<fieldset>
+								<label>Price <span>max</span>:</label>
+								<select>
+									<option value="0">Any</option>
+									<option value="1">Lorem</option>
+									<option value="2">Ipsum</option>
+								</select>
+							</fieldset>
+
+							<fieldset>
+								<label>Year <span>from</span>:</label>
+								<select>
+									<option value="0">Any</option>
+									<option value="1">Lorem</option>
+									<option value="2">Ipsum</option>
+								</select>
+							</fieldset>
+
+							<fieldset>
+								<label>Year <span>to</span>:</label>
+								<select>
+									<option value="0">Any</option>
+									<option value="1">Lorem</option>
+									<option value="2">Ipsum</option>
+								</select>
+							</fieldset>
+							
+							<fieldset>
+								<label>Body type</label>
+								<select>
+									<option value="0">Any</option>
+									<option value="1">Lorem</option>
+									<option value="2">Ipsum</option>
+								</select>
+							</fieldset>
+
+							<div class="clear"></div>
+							
+							<button id="submitSearch" class="submit-search" type="submit">Search</button>
+							
+							<a href="#" class="advanced">Advanced Search</a>
+
+						</form><!--/ .form-panel-->						
+
+					</div><!--/ .search-entry-->
+
+				</div><!--/ .widget-container-->
+		
+				
+				<div class="widget-container widget_loan_calculator">
+					
+					<div class="widget-head">
+						
+						<h3 class="widget-title">Loan Calculator</h3>
+						
+					</div>
+					
+					<div class="entry-loan">
+						
+						<form action="#" method="POST" name="myform" id="loan">
+
+							<table>
+								<tr>
+									<td><label for="LoanAmount">Car Loan Amount</label></td>
+									<td><input name="LoanAmount" id="LoanAmount" type="text" value="3000" /></td>
+									<td>$</td>
+								</tr>
+								<tr>
+									<td><label for="InterestRate">Annual Interest Rate</label></td>
+									<td><input name="InterestRate" id="InterestRate" type="text" value="7.0" /></td>
+									<td>%</td>
+								</tr>
+								<tr>
+									<td><label for="NumberOfYears">Term of Car Loan</label></td>
+									<td><input name="NumberOfYears" id="NumberOfYears" type="text" value="4" /></td>
+									<td>Years</td>
+								</tr>
+								<tr>
+									<td>
+										<button name="cal" class="button orange">Calculate</button>
+									</td>
+								</tr>
+								<tr>
+									<td><label for="NumberOfPayments">Number of Car Payments</label></td>
+									<td><input readonly="readonly" type="text" id="NumberOfPayments" name="NumberOfPayments" /></td>
+									<td></td>
+								</tr>
+								<tr>
+									<td><label for="MonthlyPayment">Monthly Payment</label></td>
+									<td><input readonly="readonly" type="text" id="MonthlyPayment" name="MonthlyPayment" /></td>
+									<td>$</td>
+								</tr>
+							</table>					
+							
+						</form>
+						
+					</div><!--/ .entry-loan-->
+					
+				</div><!--/ .widget-container-->
+				
+				<div class="widget-container widget_latest">
+					
+					<h3 class="widget-title">Latest News</h3>
+					
+					<ul>
+						<li>
+							<a class="thumb single-image" href="#"><img src="images/temp/latest-thumb-1.jpg" alt="" /></a>
+							<div class="latest-entry">
+								<a href="#" class="block"><b>Ipsum dolor sit a conse</b></a>
+								<a href="#" class="bold text-orange italic">Oct 3, 2012</a>	
+								<p>
+									Cras lacinia pulvinar orci sit amet tempus. Cras nec ...
+								</p>
+							</div><!--/ .latest-entry-->
+						</li>
+						<li>
+							<a class="thumb single-image" href="#"><img src="images/temp/latest-thumb-2.jpg" alt="" /></a>
+							<div class="latest-entry">
+								<a href="#" class="block"><b>Ipsum dolor sit a conse</b></a>
+								<a href="#" class="bold text-orange italic">Oct 3, 2012</a>	
+								<p>
+									Cras lacinia pulvinar orci sit amet tempus. Cras nec ...
+								</p>
+							</div><!--/ .latest-entry-->
+						</li>
+						<li>
+							<a class="thumb single-image" href="#"><img src="images/temp/latest-thumb-3.jpg" alt="" /></a>
+							<div class="latest-entry">
+								<a href="#" class="block"><b>Ipsum dolor sit a conse</b></a>
+								<a href="#" class="bold text-orange italic">Oct 3, 2012</a>	
+								<p>
+									Cras lacinia pulvinar orci sit amet tempus. Cras nec ...
+								</p>
+							</div><!--/ .latest-entry-->
+						</li>
+					</ul>
+					
+					<a href="#" class="see">See all news</a>
+					
+				</div><!--/ .widget-container-->
+				
+				<div class="widget-container widget_latest">
+					
+					<h3 class="widget-title">Latest Cars</h3>
+					
+					<ul>
+						<li>
+							<a class="thumb single-image picture video" href="#"><img src="images/temp/latest-thumb-1.jpg" alt="" /></a>
+							<div class="latest-entry">
+								<a href="#" class="block"><b>Aston Martin DB9</b></a>
+								<span class="block add-margin">2009 y.r., 160,000 km.</span>
+								<a href="#" class="bold text-orange">$8.966</a>	
+							</div><!--/ .latest-entry-->
+						</li>
+						<li>
+							<a class="thumb single-image picture" href="#"><img src="images/temp/latest-thumb-2.jpg" alt="" /></a>
+							<div class="latest-entry">
+								<a href="#" class="block"><b>Aston Martin DB9</b></a>
+								<span class="block add-margin">2009 y.r., 160,000 km.</span>
+								<a href="#" class="bold text-orange">$8.966</a>	
+							</div><!--/ .latest-entry-->
+						</li>
+						<li>
+							<a class="thumb single-image picture video" href="#"><img src="images/temp/latest-thumb-3.jpg" alt="" /></a>
+							<div class="latest-entry">
+								<a href="#" class="block"><b>Aston Martin DB9</b></a>
+								<span class="block add-margin">2009 y.r., 160,000 km.</span>
+								<a href="#" class="bold text-orange">$8.966</a>	
+							</div><!--/ .latest-entry-->
+						</li>
+					</ul>
+					
+					<a href="#" class="see">See all news</a>
+					
+				</div><!--/ .widget-container-->
+
+			</aside><!--/ #sidebar-->
+
+			<!-- - - - - - - - - - - - - end Sidebar - - - - - - - - - - - - - - - - -->
+
+		</section><!--/.container -->
+
+		<!-- - - - - - - - - - - - - end Container - - - - - - - - - - - - - - - - -->			
+		
+	</div><!--/ .main-->
+
+	
+	<!-- - - - - - - - - - - - - - - Footer - - - - - - - - - - - - - - - - -->	
+	
+	<footer id="footer" class="container clearfix">
+		
+		<section class="container clearfix">
+			
+			<div class="four columns">
+
+				<div class="widget-container widget_text">
+
+					<h3 class="widget-title">About Us</h3>
+
+					<div class="textwidget">
+
+						<p class="white">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor. 
+						</p>	
+
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
+							incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+							exercitation.
+						</p>
+
+					</div><!--/ .textwidget-->
+
+					<a href="#" class="see">Read more</a>
+
+				</div><!--/ .widget-container-->	
+
+			</div><!--/ .four .columns-->
+
+			<div class="four columns">
+
+				<div class="widget-container widget_text">
+
+					<h3 class="widget-title">Our Hours</h3>
+
+					<div class="textwidget">
+
+						<ul class="hours">
+
+							<li>Monday <span>8 am to 7 pm</span></li>
+							<li>Tuesday <span>8 am to 9 pm</span></li>
+							<li>Wednesday <span>8 am to 9 pm</span></li>
+							<li>Thursday <span>8 am to 9 pm</span></li>
+							<li>Friday <span>8 am to 9 pm</span></li>
+							<li>Saturday <span>8 am to 9 pm</span></li>
+							<li>Sunday <span>Closed</span></li>
+
+						</ul><!--/ .hours-->
+
+					</div><!--/ .textwidget-->
+
+				</div><!--/ .widget-container-->
+
+			</div><!--/ .four .columns-->
+
+			<div class="four columns">
+
+				<div class="widget-container widget_contacts">
+
+					<h3 class="widget-title">Our Contacts</h3>			
+
+					<ul class="our-contacts">
+
+						<li class="address">
+							<b>Address Info 1:</b>
+							<p>Lorem ipsum Dolor sit amet, 658 Consectetur, Adipisicing 56 D</p>
+						</li>
+						<li class="phone">
+							<b>Phone:</b>&nbsp;<span>+1 (234) 567-8901</span> <br />
+							<b>FAX:</b>&nbsp;<span>+1 (234) 567-8902</span>
+						</li>
+						<li>
+							<b>Email: <a href="mailto:testmail@sitename.com">testmail@sitename.com</a></b>
+						</li>
+						<li>
+							<ul class="social-icons clearfix">
+								<li class="twitter"><a title="twitter" href="#">Twitter</a></li>
+								<li class="facebook"><a title="facebook" href="#">Facebook</a></li>
+								<li class="rss"><a title="rss" href="#">Rss</a></li>
+							</ul><!--/ .social-icons-->
+						</li>
+
+					</ul><!--/ .our-contacts-->
+
+				</div><!--/ .widget-container-->
+
+			</div><!--/ .four .columns-->
+
+			<div class="four columns">
+
+				<div id="gMap"></div>
+
+			</div><!--/ .four .columns-->
+
+			<div class="adjective clearfix">
+
+				<p class="copyright">Copyright &copy; 2012. ThemeMakers. All rights reserved</p>
+
+				<p class="developed">developed by <a href="http://webtemplatemasters.com/" target="_blank">ThemeMakers</a></p>
+				
+			</div><!--/ .adjective-->
+		
+		</section><!--/ .container-->
+		
+	</footer><!--/ #footer-->
+	
+	<!-- - - - - - - - - - - - - - - end Footer - - - - - - - - - - - - - - - - -->		
+	
+</div><!--/ .wrap-->
+
+<div class="account-wrapper">
+	
+	<form class="form-reg" method="post" action="#">
+		
+		<a href="#" class="log">Login</a>
+		
+		<p>
+			<label>Username*</label>
+			<input class="input-medium" type="text" />
+		</p>
+		
+		<p>
+			<label>Password*</label>
+			<input class="input-medium" type="password" />
+		</p>
+		
+		<p class="forgot-pass">
+			<a href="#">Forgot your password?</a>
+		</p>
+		
+		<p>
+			<a href="#" class="button dark enter-btn">Login</a>
+			<a href="#" class="button dark enter-btn">Create an account</a>
+		</p>
+		
+	</form><!--/ .form-reg-->
+	
+</div><!--/ .account-wrapper-->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/jquery-1.7.2.min.js"><\/script>')</script>
+<!--[if lt IE 9]>
+	<script src="js/selectivizr-and-extra-selectors.min.js"></script>
+<![endif]-->
+	<script src="js/ie.js"></script>
+<script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+<script src="js/jquery.gmap.min.js"></script>
+<script src="js/custom.js"></script>
+</body>
+</html>
